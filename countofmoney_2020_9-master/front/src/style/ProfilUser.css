@@ -1,0 +1,30 @@
+.user-profil {
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%);
+    max-width: 16vw;
+}
+
+.overlay-profil {
+    position: fixed;
+    top: -14%;
+    left: 49%;
+    transform: translate(-50%);
+    width: 500px;
+    height: 400px;
+    z-index: -9999;
+    background-color: rgb(67, 68, 67, .1);
+    border: 2px solid #434443;
+}
+
+.rs-form-horizontal .rs-form-group .rs-btn-toolbar {
+    padding-left: 0; 
+    margin: 0 auto;
+    display: table;
+}
+
+.rs-form-control-wrapper > .rs-input-number, .rs-form-control-wrapper > .rs-input {
+    width: 15vw;
+    min-width: 150px;
+}

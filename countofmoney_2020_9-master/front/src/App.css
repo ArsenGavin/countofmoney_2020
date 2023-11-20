@@ -1,0 +1,17 @@
+/* Notifications */
+
+.ant-notification {
+    margin-top: 40px;
+}
+
+.ant-notification-notice {
+    background-color: gray;
+}
+
+.ant-notification-notice-message {
+    color: white;
+}
+
+.ant-notification-notice-close {
+    color: white
+}

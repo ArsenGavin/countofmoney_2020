@@ -1,0 +1,20 @@
+.leftNavContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.username {
+    font-size: 17px;
+    margin: auto;
+}
+
+.loginClass {
+    text-decoration: none;
+    color: white;
+    margin: auto;
+}
+
+.loginClass:hover {
+    text-decoration: none;
+    margin: auto;
+}

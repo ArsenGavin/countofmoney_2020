@@ -1,0 +1,84 @@
+.rs-panel-body {
+    padding: 0;
+    width: 100%;
+}
+
+@media (max-width: 950px) {
+    .componentsContainer {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}
+.rs-panel {
+    scrollbar-width: thin;          /* "auto" or "thin" */
+    scrollbar-color: blue orange;   /* scroll thumb and track */
+  }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: dark;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #303030;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 20px;
+    border: 2px solid #303030;
+  }
+
+/* Notifications */
+
+.ant-notification {
+    margin-top: 40px;
+}
+
+.ant-notification-notice-message {
+    color: white;
+}
+
+.ant-notification-notice-close {
+    color: white
+}
+
+/* Details Component */
+
+.DetailPanel {
+    width : 12vw; 
+    text-align : center; 
+    padding: 20px 0;
+    background-color: #333333;
+}
+
+@media (max-width: 950px) {
+    .DetailPanel {
+        width : 20vw; 
+        text-align : center; 
+        padding: 20px 0;
+        background-color: #333333;
+    }
+}
+
+/* List Component */
+
+.rs-table-row-header {
+    padding-top: 10px;
+}
+
+.rs-table-cell-content {
+    padding-left: 30px !important;
+}
+
+/* Articles Component */
+@media (max-width: 950px) {
+    .Container-article {
+        max-width:100%!important;
+    }
+}
